@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Nexora — Independent Software Developer</title>
+  <title>Nexora — Independent Software Development</title>
 
   <meta
     name="description"
@@ -16,19 +16,31 @@
 
 <body>
 
-  <!-- NAVIGATION -->
-  <header class="navbar">
-    <div class="container nav-container">
+  <!-- HEADER -->
+  <header class="header">
 
-      <a href="#" class="logo">NEXORA</a>
+    <div class="container nav">
+
+      <a href="#" class="logo">
+        NEXORA<span>.</span>
+      </a>
 
       <nav class="nav-links">
+
         <a href="#about">About</a>
+
         <a href="#projects">Projects</a>
+
         <a href="#contact">Contact</a>
+
       </nav>
 
+      <button class="menu-btn" aria-label="Open menu">
+        ☰
+      </button>
+
     </div>
+
   </header>
 
 
@@ -36,50 +48,88 @@
   <main>
 
     <section class="hero">
-      <div class="container hero-content">
 
-        <div class="hero-label">
-          INDEPENDENT SOFTWARE DEVELOPMENT
+      <div class="container hero-grid">
+
+        <div>
+
+          <div class="eyebrow">
+            INDEPENDENT SOFTWARE DEVELOPMENT
+          </div>
+
+          <h1>
+            Building digital products
+            <span>for the next generation.</span>
+          </h1>
+
+          <p class="hero-text">
+            Nexora is an independent development brand focused on creating
+            practical, simple, and useful digital products for everyday users.
+          </p>
+
+          <div class="buttons">
+
+            <a href="#projects" class="btn primary">
+              View Projects
+            </a>
+
+            <a href="#contact" class="btn secondary">
+              Get in Touch
+            </a>
+
+          </div>
+
         </div>
 
-        <h1>
-          Building digital products
-          <span>for the next generation.</span>
-        </h1>
 
-        <p>
-          Nexora is an independent development brand focused on creating
-          practical, simple, and useful digital products.
-        </p>
+        <!-- HERO CARD -->
+        <div class="hero-card">
 
-        <div class="hero-buttons">
-          <a href="#projects" class="btn btn-primary">
-            View Projects
-          </a>
+          <div class="orb"></div>
 
-          <a href="#contact" class="btn btn-secondary">
-            Get in Touch
-          </a>
+          <div class="hero-card-content">
+
+            <div class="status">
+              ● Currently Building
+            </div>
+
+            <h2>
+              Nexora
+            </h2>
+
+            <p>
+              Independent software development focused on useful
+              applications and digital tools.
+            </p>
+
+          </div>
+
         </div>
 
       </div>
+
     </section>
 
 
     <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container">
+    <section id="about" class="section dark">
 
-        <div class="section-label">
-          ABOUT NEXORA
+      <div class="container split">
+
+        <div>
+
+          <div class="eyebrow">
+            ABOUT NEXORA
+          </div>
+
+          <h2>
+            Building useful digital products, one idea at a time.
+          </h2>
+
         </div>
 
-        <h2>
-          Building useful digital products,
-          one idea at a time.
-        </h2>
 
-        <div class="about-content">
+        <div class="about-text">
 
           <p>
             Nexora is an independent software development brand focused on
@@ -93,93 +143,144 @@
           </p>
 
           <p>
-            Nexora is currently an independent development project, with
-            plans to continue building and publishing new applications
+            Nexora is an independent development project, with plans to
+            continue creating, improving, and publishing new applications
             across different platforms as projects grow.
           </p>
 
         </div>
 
       </div>
+
     </section>
 
 
     <!-- PROJECTS -->
-    <section id="projects" class="section projects-section">
+    <section id="projects" class="section">
+
       <div class="container">
 
-        <div class="section-label">
-          PROJECTS
-        </div>
+        <div class="section-heading">
 
-        <h2>
-          Things I'm building.
-        </h2>
+          <div>
 
+            <div class="eyebrow">
+              PROJECTS
+            </div>
 
-        <!-- PROJECT CARD -->
-        <div class="project-card">
+            <h2>
+              Things I'm building.
+            </h2>
 
-          <div class="project-number">
-            01
           </div>
 
-          <div class="project-info">
+          <p>
+            A selection of applications and digital products developed
+            under Nexora.
+          </p>
 
-            <div class="project-top">
+        </div>
 
-              <div>
-                <span class="project-category">
-                  WEB APPLICATION
-                </span>
 
-                <h3>
-                  NetSpeed Test
-                </h3>
+        <div class="projects">
+
+
+          <!-- PROJECT 01 -->
+          <div class="project">
+
+            <div class="project-icon">
+              01
+            </div>
+
+            <div>
+
+              <div class="tag">
+                WEB APPLICATION
               </div>
 
-              <span class="project-status">
-                LIVE
-              </span>
+              <h3>
+                NetSpeed Test
+              </h3>
+
+              <p>
+                A simple web-based internet speed testing tool that allows
+                users to check their network connection and get a quick
+                overview of their connection performance.
+              </p>
+
+              <p class="note">
+
+                <a
+                  href="https://netspeed-test.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="color:#aab3ff;"
+                >
+                  Visit Project →
+                </a>
+
+              </p>
 
             </div>
 
-            <p>
-              A simple web-based internet speed testing tool that allows
-              users to check their network connection and get a quick
-              overview of their connection performance.
-            </p>
+          </div>
 
-            <a
-              href="https://netspeed-test.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-link"
-            >
-              Visit Project
-              <span>→</span>
-            </a>
+
+          <!-- FUTURE PROJECT -->
+          <div class="project">
+
+            <div class="project-icon">
+              +
+            </div>
+
+            <div>
+
+              <div class="tag">
+                IN DEVELOPMENT
+              </div>
+
+              <h3>
+                More Products
+              </h3>
+
+              <p>
+                New applications and digital tools are currently being
+                explored and developed as part of the Nexora project.
+              </p>
+
+              <p class="note">
+                More projects will be added as they become available.
+              </p>
+
+            </div>
 
           </div>
+
 
         </div>
 
       </div>
+
     </section>
 
 
     <!-- FEATURES -->
-    <section class="section features-section">
+    <section class="section dark">
+
       <div class="container">
 
-        <div class="section-label">
+        <div class="eyebrow">
           APPROACH
         </div>
 
-        <div class="features-grid">
 
-          <div class="feature">
-            <div class="feature-number">01</div>
+        <div class="features">
+
+          <div>
+
+            <strong>
+              01
+            </strong>
 
             <h3>
               Useful
@@ -189,11 +290,15 @@
               Building products around real problems and practical
               everyday needs.
             </p>
+
           </div>
 
 
-          <div class="feature">
-            <div class="feature-number">02</div>
+          <div>
+
+            <strong>
+              02
+            </strong>
 
             <h3>
               Simple
@@ -203,11 +308,15 @@
               Keeping products straightforward, accessible, and easy
               to use.
             </p>
+
           </div>
 
 
-          <div class="feature">
-            <div class="feature-number">03</div>
+          <div>
+
+            <strong>
+              03
+            </strong>
 
             <h3>
               Built to Grow
@@ -217,56 +326,77 @@
               Continuously improving ideas and developing new products
               as Nexora grows.
             </p>
+
           </div>
 
         </div>
 
       </div>
+
     </section>
 
 
     <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
+    <section id="contact" class="section contact">
+
       <div class="container">
 
-        <div class="section-label">
-          CONTACT
+        <div class="contact-box">
+
+          <div>
+
+            <div class="eyebrow">
+              CONTACT
+            </div>
+
+            <h2>
+              Have an idea or want to get in touch?
+            </h2>
+
+            <p>
+              For questions, collaboration, or enquiries about Nexora's
+              projects, you can reach me by email.
+            </p>
+
+          </div>
+
+
+          <a
+            href="mailto:novalabs.hello@gmail.com"
+            class="btn primary"
+          >
+            Email Nexora
+          </a>
+
         </div>
 
-        <h2>
-          Have an idea or want to get in touch?
-        </h2>
-
-        <p>
-          For questions, collaboration, or enquiries about Nexora's
-          projects, you can reach me by email.
-        </p>
-
-        <a
-          href="mailto:novalabs.hello@gmail.com"
-          class="email-link"
-        >
-          novalabs.hello@gmail.com
-        </a>
-
       </div>
+
     </section>
 
   </main>
 
 
   <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-content">
+  <footer>
+
+    <div class="container footer">
 
       <div>
-        <strong>NEXORA</strong>
+
+        <strong>
+          NEXORA
+        </strong>
+
         <p>
           Independent software development.
         </p>
+
       </div>
 
+
       <div class="footer-links">
+
         <a href="privacy.html">
           Privacy Policy
         </a>
@@ -274,13 +404,18 @@
         <a href="terms.html">
           Terms
         </a>
+
       </div>
 
-      <div class="copyright">
+
+      <div>
+
         © <span id="year"></span> Nexora. All rights reserved.
+
       </div>
 
     </div>
+
   </footer>
 
 
